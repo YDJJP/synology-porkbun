@@ -16,4 +16,5 @@ To use this script with a Synology router:
         queryurl=Porkbun
 ```
 4. In the Synology router's DDNS settings, you should now be able to select "Porkbun" as a provider and enter your API key as the username and your Secret key as the password.
-5. Create the `A` record for your domain in the Porkbun settings (this script only updates them)
+```
+5. Record will be updated or added if not exist 
